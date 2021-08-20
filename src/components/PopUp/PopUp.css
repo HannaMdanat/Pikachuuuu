@@ -1,0 +1,32 @@
+.pop-up-wrapper {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    padding-left: 28%;
+}
+
+.content {
+    width: 60%;
+    background-color: pink;
+    color: white;
+    border-radius: 25px;
+}
+
+.body {
+    padding: 10px;
+}
+
+.horiz {
+    display: flex;
+    justify-content: space-around;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+}
