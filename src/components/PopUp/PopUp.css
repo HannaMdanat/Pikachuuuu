@@ -7,7 +7,7 @@
     background-color: rgba(0,0,0,0.5);
     display: flex;
     align-items: center;
-    padding-left: 28%;
+    padding-left: 29%;
 }
 
 .content {
@@ -29,4 +29,12 @@
 .vertical {
     display: flex;
     flex-direction: column;
+}
+
+.close {
+    display: none;
+}
+
+.no-close {
+    display: block;
 }
