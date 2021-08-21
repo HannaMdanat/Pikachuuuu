@@ -20,7 +20,7 @@ export default function PopUp({ pokemon }) {
         <div onClick={() => popUpClose()} id='poki' className='pop-up-wrapper'>
             <div className='content'>
                 <div className='modal-header'>
-                    <h1 className='modal-title'>{pokemon.name}</h1>
+                    <h1>{pokemon.name}</h1>
                 </div>
                 <div className='body horiz'>
                     <img className='img' src={pokemon.sprites['front_default']} />
