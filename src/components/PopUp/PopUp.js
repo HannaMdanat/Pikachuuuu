@@ -12,12 +12,8 @@ export default function PopUp({ pokemon }) {
         }).catch();
     }, []);
 
-    function popUpClose() {
-        document.getElementById('poki').classList.add('close');
-    }
-
     return (
-        <div onClick={() => popUpClose()} id='poki' className='pop-up-wrapper'>
+        <div id='poki' className='pop-up-wrapper'>
             <div className='content'>
                 <div className='modal-header'>
                     <h1>{pokemon.name}</h1>

@@ -1,7 +1,5 @@
 body {
   padding: 50px 0;
-  padding-right: 70px;
-  padding-left: 160px;
   background-image: url('https://www.ixpap.com/images/2021/02/pokemon-background-ixpap.jpg');
   background-size: cover;
 }
@@ -9,4 +7,5 @@ body {
 .cards-wrapper {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
